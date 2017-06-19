@@ -1,0 +1,14 @@
+/*MY FIRST PROGRAM ON ARDUINO
+  CREATED BY Debasis Samantaray*/
+int ledPin = 13;
+void setup() {
+  pinMode(ledPin, OUTPUT); // put your setup code here, to run once:
+
+}
+
+void loop() {
+  digitalWrite(ledPin, HIGH); // put your main code here, to run repeatedly:
+  delay(10000);
+  digitalWrite(ledPin, LOW);
+  delay(1000);
+}
